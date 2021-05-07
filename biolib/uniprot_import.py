@@ -1,6 +1,6 @@
 from urllib.request import urlopen
 
-def import_uniprot(uniprot_id) :
+def uniprot_import(uniprot_id) :
 
 	'''Given: Uniprot ID str
     Returns: str of protein sequence'''
